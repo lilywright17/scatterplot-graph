@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  background-color: wheat;
+  text-color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+#tooltip {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+}
